@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required/>
+        <br>
+    <label for="lastname">Last name:</label>
+    <input type="text" id="lastname" name="lastname" required/>
+        <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"  required/>
+        <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required/>
+        <br>
+    <label for="repeatepassword">Repeat Password:</label>
+    <input type="password" id="password" name="password"required>
+        <br>
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+        <br>
+    <label for="myfile">Choose a file:</label>
+    <input type="file" id="myfile" name="myfile" accept=".jpg,.png,.pdf">
+        <br>
+    <input type="radio" id="male" name="gender" value="text" required />
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="text" required>
+    <label for="female" >Female</label>
+
+        <br>
+    <label for="university">Select Your University:</label>
+    <select id="university" name="university" required>
+        <option value="" disabled selected>-- Choose a University --</option>
+        <option value="cairo">Cairo University</option>
+        <option value="miu">MIU</option>
+        <option value="ain_shams">Ain Shams</option>
+        <option value="bue">BUE</option>
+        <option value="guc">GUC</option>
+    </select>
+        <br>
+    <input type="checkbox" id="drawing" name="hobby" value="text"  />
+    <label for="drawing">Drawing</label>
+    <input type="checkbox" name="hobby" id="reading" value="text" >
+    <label for="reading" >Reading</label>
+    <input type="checkbox" name="hobby" id="gaming" value="text" >
+    <label for="gaming" >Gaming</label>
+    <br>
+    <label for="aboutyou">About you</label>
+    <br>
+    <textarea id="aboutyou" name="aboutyou" rows="5" cols="33">Right you about here</textarea>
+    <br>
+    <input type="checkbox" name="terms" id="terms" value="text"  required>
+    <label for="terms" >I agreed to terms and condition</label>
+    <br>
+    <input type="reset" value="reset">
+    <br>
+    <button type="submit">
+        <a href="Thankyou.html">Submit</a>
+    </button>
+</form>
+</body>
+</html>

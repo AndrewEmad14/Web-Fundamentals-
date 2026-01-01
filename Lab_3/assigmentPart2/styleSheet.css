@@ -1,0 +1,82 @@
+*,*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p,div,span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+div h1{
+    text-align: center;
+}
+
+div#header{
+    width: 100%;
+    height: 60px;
+    background-color: #ff0000;
+}
+span#linksbar{
+    width: 25%;
+    background-color: gray;
+    float: left;
+}
+span#content{
+    width:75%;
+    height:70%;
+    background-color: pink;
+    float:left;
+} 
+
+ul.none-bullet-list{
+    list-style: none;
+    margin: 1.5rem;
+
+}
+span#linksbar li>a{
+    color:#ff0000;
+    text-decoration: none;
+}
+
+span#linksbar li>a:hover{
+    color:pink;
+    background-color: red;
+}
+
+span#content>h2 + p{
+    font: bold;
+    font-size: 12px;
+
+}
+div#loginform{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgb(20,70,60);
+}
+input[type="text"]{
+    background-color: yellow;
+}
+input[type="text"]:focus{
+    background-color: white;
+}
+
+.tabled-bordered{
+    display: table-cell;
+    padding: 5px;
+    border: 2px solid black;
+}
+span p::after{
+    content:"Read this";
+    color: yellow;
+
+}
+p#aboutus{
+    color:#ff0000 !important;
+}
+span>p#aboutus{
+   
+    color:yellow;
+}

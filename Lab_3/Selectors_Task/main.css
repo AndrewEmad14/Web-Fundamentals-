@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color:#ff0000;
+}
+p,div{
+    color:yellowgreen;
+
+}
+
+div#myDiv>p.mainClass{
+    background-color: aquamarine;
+}
+
+div p{
+    font-size: larger;
+}
+
+input[type="text"]{
+    color: magenta;
+    background-color: blanchedalmond;
+}
+
+div + span{
+    color: chartreuse;
+}
+
+p.myClass{
+    background-color: brown ;
+}
+
+div#myDiv{
+    background-color: chocolate;
+}

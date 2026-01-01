@@ -1,0 +1,69 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+  background-color:#938cc1 ;
+  width: 100%;
+  text-align: center;
+}
+header .Icon{
+    width: 10%;
+    height: 80%;
+}
+nav {
+    background-color: #c68c88;
+    width: 100%;
+
+    text-align: center;
+    padding: 1rem 0; /* gives it some height */
+}
+nav a{
+    width: 3%;
+    height: auto;
+    margin:0 1rem;
+}
+table{
+  width: 100%;
+  height: 60rem;
+  border-collapse: collapse;
+}
+td {
+    padding: 4rem;    
+    vertical-align: top; /* centers content */
+}
+
+#firstColumn{
+  width: 20%;
+  background-color:#f8cdba;
+  text-align: center;
+}
+#firstColumn .Icon {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    margin: 1rem auto;
+}
+#secondColumn {
+    width: 60%;
+    background-color: #fee5cb;
+}
+.ProfileDetails {
+    color: #8b0000;
+    text-align: center;
+}
+#thirdColumn {
+    width: 20%;
+    background-color: #eeb9b9;
+}
+footer{
+  width:100%;
+  text-align: center;
+}
+footer .Icon{
+    width: 3rem;
+    height: 3rem;
+  
+}
+
