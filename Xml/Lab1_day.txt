@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library location="Alexandria" >
+            <description>
+            this is alex library
+            </description>     
+            <librarian>
+             Andrew
+            </librarian>
+
+            <book title="red country" ISBN="01212" author="joe abercrombie">
+                <preface>
+                </preface>
+                <part title="part1">
+                    <chapter title="the country">
+                        <summary>
+                            shy and lamb are haggling for groceries
+                        </summary>
+                        <section>
+                            <paragraph>
+                            </paragraph>
+                        </section>
+                         <section>
+                            <paragraph>
+                            </paragraph>
+                        </section>
+                    </chapter>
+                    <chapter title="the country">
+                        <summary>
+                            shy and lamb are haggling for groceries
+                        </summary>
+                        <section>
+                            <paragraph>
+                                <![CDATA]
+
+                                “Evil turned out not to be a grand thing.
+                                 Not sneering Emperors with their world-conquering designs.
+                                 Not cackling demons plotting in the darkness beyond the world.
+                                 It was small men with their small acts and their small reasons.
+                                 It was selfishness and carelessness and waste.
+                                 It was bad luck, incompetence, and stupidity.
+                                 It was violence divorced from conscience or consequence.
+                                 It was high ideals, even, and low methods.”
+                                ― Joe Abercrombie, Red Country 
+                                ]]>
+                            </paragraph>
+                        </section>
+                         <section>
+                            <paragraph></paragraph>
+                        </section>
+                    </chapter>
+                </part>
+            </book>
+</library>
