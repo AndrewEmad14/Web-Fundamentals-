@@ -9,7 +9,7 @@ do {
   !birthYear ||
   isNaN(birthYear) ||
   parseInt(birthYear) < 1 ||
-  parseInt(birthYear) > 2010
+  parseInt(birthYear) >= 2010
 );
 var currentYear = 2010;
 var age = currentYear - parseInt(birthYear);

@@ -4,8 +4,8 @@ var isRunning = true;
 while (isRunning) {
   var n = prompt("Enter a Number");
   var temp = parseInt(n);
-  if (isFinite(n)) {
-    sum += parseInt(n);
+  if (isFinite(temp)) {
+    sum += temp;
     if (temp === 0 || sum > limit) {
       isRunning = false;
     }
