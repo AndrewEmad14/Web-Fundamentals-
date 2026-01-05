@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+table{
+  border : .2rem solid black;
+  width : 50%;
+}
+#nameCol{
+  width : 95%;
+}
+#ageCol{
+  width : 5%;
+}
+
+th, td {
+  border: .2rem solid black;  /* Applies to ALL th and td elements */
+  
+}
+
