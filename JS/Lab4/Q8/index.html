@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomForm</title>
+    <link rel="stylesheet" href="styesheet.css">
+</head>
+
+<body>
+    <div id="formContainer">
+        <form>
+            <label for="userName">Name</label>
+            <input type="text" id="userName" required>
+            <span id="feedbackMsgName"></span>
+            <br>
+            <label for="age">Age</label>
+            <input type="text" id="age" required>
+            <span id="feedbackMsgAge"></span>
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" required>
+            <span id="feedbackMsgEmail"></span>
+            <br>
+            <button type="submit" id="submitBtn">Add</button>
+            <button type="reset" id="resetBtn">reset</button>
+        </form>
+    </div>
+    <div id="tableContainer">
+        <table >
+            <thead>
+                <tr>
+                <th id="name">Name</th>
+                <th id="ageCol">Age</th>
+                <th id="email">Email</th>
+            </tr>
+            </thead>
+            
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
