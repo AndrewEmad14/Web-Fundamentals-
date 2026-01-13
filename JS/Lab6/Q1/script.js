@@ -5,6 +5,7 @@ class Shape {
   static #circleCounter = 0;
   static #squareCounter = 0
   constructor(x = 1, y = 1) {
+    
     if (isNaN(x) || isNaN(y)) {
       throw new Error("You must enter a number");
     } else if (x < 1 || y < 1) {
@@ -149,7 +150,7 @@ try {
 
   console.log(""+mySquare);
   console.log("Total shapes created: " + Shape.counter);
-  
+
   let anotherRectangle = new Rectangle();
 
 } catch (e) {
