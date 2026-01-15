@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FBF8EF;
+  color: #333;
+}
+#userNameContainer{
+  width: 100%;
+  padding: 0.1rem 1rem 2rem 0.1cm;;
+  background-color: #80CBC4;
+  
+
+
+}
+#userNameContainer button{
+  padding: 0.7rem 1rem;
+  margin-right: .1rem;
+  margin-top: .2rem;
+  background-color: #B4EBE6;
+  border-radius: .2rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+#userNameContainer button.active{
+  background-color: #FFB433;
+  color: white;
+}
+#postContainer{
+  width: 60%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #FFB433;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
