@@ -144,6 +144,7 @@ slideBtn.addEventListener("click",function(){
 //stops slideBtn
 stopBtn.addEventListener("click",function(){
     stopIteration();
+   
 });
     
 

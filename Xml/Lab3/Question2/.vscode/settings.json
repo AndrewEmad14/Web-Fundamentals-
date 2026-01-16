@@ -1,0 +1,6 @@
+{
+  "java.project.sourcePaths": [
+    "target/classes/com/example",
+    "src/main/java/com/example"
+  ]
+}
