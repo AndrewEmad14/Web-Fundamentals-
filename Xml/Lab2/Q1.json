@@ -1,0 +1,30 @@
+{
+  "location": "Alexendria",
+  "description": "Alex library",
+  "librarian": "Andrew",
+  "books": [
+    {
+      "title": "red country",
+      "ISBN": "01212",
+      "author": "joe abercrombie",
+      "preface": "a morally confusing book",
+      "part": [
+        {
+          "title": "Blood",
+          "chapter": [
+            {
+              "title": "The Blade Itself",
+              "summary": "Logen Ninefingers escapes death",
+              "section": [
+                {
+                  "number": 1,
+                  "paragraph": "the north is cold"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
